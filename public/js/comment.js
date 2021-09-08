@@ -24,5 +24,5 @@ async function commentFormHandler(event) {
             document.querySelector('#comment-form').getElementsByClassName.display = "block";
         }
     }
-}
+};
 document.querySelector('.comment-form').addEventListener('submit', commentFormHandler);
